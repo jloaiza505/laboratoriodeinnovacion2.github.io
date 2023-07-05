@@ -1,0 +1,19 @@
+button{
+    padding: 5px;
+    background: #d95753;
+    border: 0;
+    width: 200px;
+    height: 50px;
+    background-image:url("http://i.stack.imgur.com/BSVeQ.gif");
+    background-repeat:no-repeat;
+    background-size: 100%; /* To fill the dimensions of container (button), or */
+}
+  
+button:active{
+    background-position:0px -64px;
+}
+
+.img-fit img {
+    width: 200px;
+    height: 50px;
+}
